@@ -1,7 +1,10 @@
 from selenium import webdriver
 import time
 
+#Setting up your web browser
 web=webdriver.Chrome()
+
+#Setting up your google form which you will be using 
 web.get(' YOUR GOOGLE FORM LINK ')
 time.sleep(3)
 
