@@ -21,7 +21,7 @@ mail.send_keys(smail)
 time.sleep(0.5)
 
 #submitting your organization in text
-sorganization='Ryan international school'
+sorganization='TVM High School'
 organization=web.find_element('xpath','//*[@id="mG61Hd"]/div[2]/div/div[2]/div[3]/div/div/div[2]/div/div[1]/div/div[1]/input')
 organization.send_keys(sorganization)
 time.sleep(1)
